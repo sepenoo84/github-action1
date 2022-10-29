@@ -1,6 +1,6 @@
 name: CI JOBS
 
-ON: push
+on: push
 
 jobs:
   job1:

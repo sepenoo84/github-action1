@@ -1,0 +1,12 @@
+name: CI JOBS
+
+ON: push
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: printing the calender
+        run: cal 
+      - name: printing the date
+        run: date
